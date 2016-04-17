@@ -1,9 +1,4 @@
 
-header {
-    /*text-align: center;*/
-    /*width: 100%;*/
-}
-
 body {
     width: 768px;
     margin: 15px auto 0;
@@ -15,14 +10,18 @@ h2 {
     margin-top: 0;
 }
 
-section {
+article {
     margin-top: 10px;
+}
+
+section {
     margin-bottom: 20px;
     padding: 10px;
     border: 3px solid black;
     border-radius: 8px;
     background-color: #fffef0;
 }
+
 
 .header-image {
     margin: 0 auto;
@@ -68,18 +67,6 @@ section {
 }
 
 
-.phone {
-    font-style: italic;
-    font-weight: bold;
-}
-
-
-
-.pricing > ul {
-    list-style: square;
-}
-
-
 .about {
     overflow: auto;
 }
@@ -91,4 +78,15 @@ section {
     margin-right: 10px;
     border: 4px solid black;
     border-radius: 8px;
+}
+
+
+.pricing > ul {
+    list-style: square;
+}
+
+
+.phone {
+    font-style: italic;
+    font-weight: bold;
 }
