@@ -23,13 +23,17 @@ section {
 }
 
 
+.header-image-link {
+    display: block;
+}
+
 .header-image {
     margin: 0 auto;
     position: relative;
     width: 586px;
 }
 
-.header-image > img {
+.header-image img {
     height: 327px;
     width: auto;
     margin: 10px;
@@ -64,29 +68,4 @@ section {
     width: 30%;
     border-color: #666666;
     border-left-style: none;
-}
-
-
-.about {
-    overflow: auto;
-}
-
-.about .sarah-picture {
-    float: left;
-    height: 250px;
-    width: auto;
-    margin-right: 10px;
-    border: 4px solid black;
-    border-radius: 8px;
-}
-
-
-.pricing > ul {
-    list-style: square;
-}
-
-
-.phone {
-    font-style: italic;
-    font-weight: bold;
 }

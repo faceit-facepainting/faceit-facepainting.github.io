@@ -1,0 +1,17 @@
+
+.top-message {
+    text-align: center;
+}
+
+
+.portfolio-row {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.portfolio-row > img {
+    width: 220px;
+    height: auto;
+    margin: 0 15px;
+}
+
